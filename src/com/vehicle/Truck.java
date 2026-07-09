@@ -1,8 +1,8 @@
 package com.vehicle;
 
 public class Truck extends Vehicle {
-	Truck(String brand, int speed, String engineNumber, int fuelCapacity) {
-        super(brand, speed, engineNumber, fuelCapacity);
+	Truck(String companyName, int speed, String engineNumber, int fuelCapacity) {
+        super(companyName, speed, engineNumber, fuelCapacity);
     }
 
     @Override
