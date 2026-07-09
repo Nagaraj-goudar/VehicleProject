@@ -2,24 +2,24 @@ package com.vehicle;
 
 public abstract class Vehicle {
 
-    String vehicleBrand;
+    String companyName;
     int speed;
     String engineNumber;
     int fuelCapacity;
 
-    Vehicle(String vehicleBrand, int speed, String engineNumber, int fuelCapacity) {
-        this.vehicleBrand = vehicleBrand;
+    Vehicle(String companyName, int speed, String engineNumber, int fuelCapacity) {
+        this.companyName = companyName;
         this.speed = speed;
         this.engineNumber = engineNumber;
         this.fuelCapacity = fuelCapacity;
     }
 
     void start() {
-        System.out.println(vehicleBrand + " Started");
+        System.out.println(companyName + " Started");
     }
 
     void stop() {
-        System.out.println(vehicleBrand + " Stopped");
+        System.out.println(companyName + " Stopped");
     }
 
     abstract void drive();

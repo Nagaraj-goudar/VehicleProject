@@ -3,10 +3,10 @@ package com.vehicle;
 public class ElectricCar extends Vehicle {
 	int batteryCapacity;
 
-    ElectricCar(String brand, int speed, String engineNumber,
+    ElectricCar(String companyName, int speed, String engineNumber,
             int fuelCapacity, int batteryCapacity) {
 
-        super(brand, speed, engineNumber, fuelCapacity);
+        super(companyName, speed, engineNumber, fuelCapacity);
         this.batteryCapacity = batteryCapacity;
     }
 
